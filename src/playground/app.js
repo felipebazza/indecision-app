@@ -1,3 +1,12 @@
+// import './file.js';
+// import anything, { square, add } from './utils.js';
+
+// console.log('app');
+// console.log(square(4));
+// console.log(add(100, 23));
+// console.log(anything(100, 20));
+
+
 class IndecisionApp extends React.Component {
   constructor(props) {
     super(props);
@@ -181,5 +190,13 @@ class AddOption extends React.Component {
 
 //Default props
 //ReactDOM.render(<IndecisionApp options={['Devils den','District']}/>,document.getElementById('app'));
+
+// using new syntax for classes with babel transform-class-properties plugin
+// class NewSyntax {
+//   name = "Felipe";
+//   getGreeting = () => {
+//     return `Test ${this.name}`;
+//   } 
+// }
 
 ReactDOM.render(<IndecisionApp />,document.getElementById('app'));
