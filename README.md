@@ -1,2 +1,12 @@
-# indecision-app"# indecision-app" 
-"# indecision-app" 
+# Indecision App
+
+Studying React, Webpack, SASS and Babel
+
+---
+<center>
+
+![alt text](./public/images/Indecision-App.png)
+
+</center>
+
+--- 
