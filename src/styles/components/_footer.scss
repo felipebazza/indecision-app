@@ -1,0 +1,24 @@
+.footer {
+    padding: $m-size 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background: $off-black;
+    color: #fff;
+}
+
+.footer__link {
+    color: $off-white;
+
+    &:visited {
+        color: $off-white;
+    }
+
+    &:hover,
+    &:active {
+        color: $purple;
+    }
+}

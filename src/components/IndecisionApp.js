@@ -2,6 +2,7 @@ import React from 'react';
 import AddOption from './AddOption';
 import Options from './Options';
 import Header from './Header';
+import Footer from './Footer';
 import Action from './Action';
 import OptionModal from './OptionModal';
 
@@ -81,6 +82,7 @@ export default class IndecisionApp extends React.Component {
                         handleClearSelectedOption={this.handleClearSelectedOption}
                     />
                 </div>
+                <Footer />
             </div>
         );
     }
